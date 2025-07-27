@@ -7,7 +7,8 @@ export default [
         },
 
         rules: {
-            semi: [2, 'always'],
+            '@typescript-eslint/no-explicit-any': 1,
+            '@typescript-eslint/no-unused-vars': 1,
         },
     },
 ];
